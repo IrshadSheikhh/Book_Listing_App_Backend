@@ -1,0 +1,21 @@
+{
+  "name": "chat_login_register",
+  "version": "1.0.0",
+  "description": "Login and register backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Irshad",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.4",
+    "nodemon": "^2.0.22"
+  }
+}
